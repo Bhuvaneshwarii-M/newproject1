@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta name="viewport" content="with=device-width, initial-scale=1.0">    
+        <title>college website</title>
+        <link rel="stylesheet" href="websiteproject.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="websiteproject.html"><img src="logo.jpeg"></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-window-close-o" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">COURSES</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>CODERS HOME</h1>
+            <P>WELCOME TO TOP OUR HOME.<br> THE TOPPERS MOST PREFERABLE LEARNING PLATFORM IN TAMILNADU</P>
+            <A href="" class="btn">Visit us to know more</A>
+        </div>
+    </section>
+    <section class="course">
+        <h1>LAUNCHING NEW COURSES</h1>
+        <p>Do you already know what you want to study? <br>Have you explored all our courses in the subject areas which interest you?
+
+            <br>Make sure you really know your options and don’t immediately go for the obvious choice.<br> The most inspiring course may be something you didn’t know existed!</p>
+        <button class="button"><i class="fa fa-search"></i></button>
+        <input type="text" class="input" placeholder="search text">
+        <div class="row">
+            <div class="course-col">
+                <h1>FLUTTER</h1>
+                <div class="timer">
+                    <div class="counter">
+                         <h2 id="days">00</h2>
+                         <small>Days</small>
+                    </div>
+                    <div class="counter">
+                        <h2 id="hours">00</h2>
+                        <small>Hours</small>
+                   </div>
+                   <div class="counter">
+                        <h2 id="minutes">00</h2>
+                        <small>Minutes</small>
+                   </div>
+                   <div class="counter">
+                        <h2 id="seconds">00</h2>
+                        <small>Seconds</small>
+                   </div>
+                </div>
+                <p>A four-year-long UG course that comprises eight semesters. A B.E UG course mainly focuses on theoretical knowledge.</p>
+            </div>
+            <div class="course-col" onload="calls()">
+                <h1>DJANGO</h1>
+                <div class="timer">
+                    <div class="counter">
+                         <h2 id="days">00</h2>
+                         <small>Days</small>
+                    </div>
+                    <div class="counter">
+                        <h2 id="hours">00</h2>
+                        <small>Hours</small>
+                   </div>
+                   <div class="counter">
+                        <h2 id="minutes">00</h2>
+                        <small>Minutes</small>
+                   </div>
+                   <div class="counter">
+                        <h2 id="seconds">00</h2>
+                        <small>Seconds</small>
+                   </div>
+                </div>
+                <p>A post graduate engineering degree will make yons, in turn expanding the types of engineering careers available to you </p>
+            </div>
+        </div>
+        <div class="imgrow">
+            <div class="imgcol">
+                <img src="study.jpeg" width="100%">
+                <p>CHOOSING WHAT TO STUDY</p>
+                <div>Some things to bear in mind when making this<br> important decision</div>
+            </div>
+            <div class="imgcol">
+                <img src="study2.webp" width="100%" height="255px" id="image">
+                <p>A-Z OF COURSES</p>
+                <div>All about each course, including the core <br>syllabus, options and assessment.</div>
+            </div>
+            <div class="imgcol">
+                <img src="study2.jpeg" width="100%">
+                <p>ADMISSION REQUIREMENTS</p>
+                <div>For course specific requirements, <br>see this page</div>
+            </div>
+        </div>
+        </section>
+        <!------section2      for students review   -->
+        <section class="testimonials">
+            <h1>What Our Student Says</h1>
+            <div class="row">
+                <div class="testimonials-col">
+                    <img src="profileimage1.png">
+                    <div><h4>Nandhini</h4><h3>published on 23rd may 2019</h3><br>Academics-->
+                        I'm pursuing BE Electronics and Communication at CIT. The teaching is good and the teachers will definitely 
+                        make us to score good grades in all our subjects and also make sure that we understand each and every concepts.<br>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                </div>
+                <div class="testimonials-col">
+                    <img src="profileimage2.png">
+                    <div><h4>Nagaraj</h4><h3>published on 2nd june 2021</h3>Placements-->
+                        Our college has the best placements records. Being an final year student, currently I'm having three offer 
+                        letters from well known MNCs. Everyone in my batch (2018-2022) have at least one offer letter with average package on 4lpa<br>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section class="footer">
+            <h4>ABOUT US</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas, quis, earum quia, quam quo minima vero esse 
+                <br>dignissimos deserunt nesciunt aspernatur? Eaque id culpa ullam necessitatibus cumque. Totam, dolor voluptates.</p>
+
+        </section>
+    <!---javascript-->
+<script>
+    var navlinks=document.getElementById("navlinks");
+    function showmenu(){
+        navlinks.style.right="0";
+    }
+    function hidemenu(){
+        navlinks.style.right="-200";
+    }
+    var countdowndate = new Date("july 30 2023 00:00:00").getTime();
+    var x = setInterval(function(){
+        var now = new Date().getTime();
+        var distance = countdowndate - now;
+        var days = Math.floor(distance/(1000*60*60*24));
+        var hours = Math.floor((distance%(1000*60*60*24))/(1000*60*60));
+        var minutes = Math.floor((distance%(1000*60*60))/(1000*60));
+        var seconds = Math.floor((distance%(1000*60))/(1000));
+        document.getElementById("days").innerHTML=days;
+        document.getElementById("hours").innerHTML=hours;
+        document.getElementById("minutes").innerHTML=minutes;
+        document.getElementById("seconds").innerHTML=seconds;
+    },1000)
+
+     
+
+
+  
+
+</script>
+
+</body>
+</html>
